@@ -22,3 +22,20 @@ lse=function(dsgn_mat,resp_var){
   est_coef=solve(t(dsgn_mat)%*%dsgn_mat)%*%t(dsgn_mat)%*%resp_var
   return(as.numeric(est_coef))
 }
+
+q1=function(n,r){
+  for(i in 1:length(n)){
+    for(j in 1:r){
+      dsgn_mat_1=c(rep(1,n[i]))
+      dsgn_mat_2=c(1:n[i])
+      dsgn_mat=data.frame(dsgn_mat_1,dsgn_mat_2)
+      dsgn_mat=as.matrix(dsgn_mat)
+      epsn=rnorm(n[i],0,1)
+      resp_vec=1.5*dsgn_mat[,1]+2*dsgn_mat[,2]+epsn
+      
+    
+    }
+  }
+}
+
+
