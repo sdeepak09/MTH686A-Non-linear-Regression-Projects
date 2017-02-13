@@ -13,6 +13,7 @@ lse=function(dsgn_mat,resp_var){
 }
 
 
+<<<<<<< HEAD
 
 gen_lse=function(dsgn_mat,resp_var,sigma){
   if(!is.matrix(dsgn_mat)){
@@ -71,6 +72,8 @@ q1=function(n,r,true_a,true_b,prntile){
   results=list(est_coefs=est_coefs,mean_bias=mean_bias,mean_sqrd_error=mean_sqrd_error,percentile_points_for_a=percentile_points_for_a,percentile_points_for_b=percentile_points_for_b)
   return(results)
 }
+=======
+>>>>>>> 3fc06006d06e2a6348c113844007821292a04059
 
 
 
