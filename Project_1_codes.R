@@ -179,10 +179,6 @@ q1_c_2=function(n,r,true_a,true_b,prntile){
 }
 
 
-
-
-<<<<<<< HEAD
-
 gen_lse=function(dsgn_mat,resp_var,sigma){
   if(!is.matrix(dsgn_mat)){
     dsgn_mat=as.matrix(dsgn_mat)
@@ -348,6 +344,10 @@ q1_c_2=function(n,r,true_a,true_b,prntile){
   results=list(est_coefs=est_coefs,mean_bias=mean_bias,mean_sqrd_error=mean_sqrd_error,percentile_points_for_a=percentile_points_for_a,percentile_points_for_b=percentile_points_for_b)
   return(results)
 }
+
+
+
+########## Answer 2
 
 
 
